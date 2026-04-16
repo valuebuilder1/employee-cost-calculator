@@ -497,10 +497,15 @@
 
   <!-- HEADER -->
   <header class="header">
-    <div class="header-logo" style="display:flex;align-items:center;gap:1.25rem;">
-      <img src="Just_Logo.png" alt="Arcanum Capital Management"
-           style="height:52px;object-fit:contain;filter:brightness(0) invert(1);opacity:0.95;"
-           onerror="this.style.display='none'" />
+    <div class="header-logo" style="display:flex;align-items:center;gap:1.1rem;">
+      <svg width="48" height="48" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Outer triangle -->
+        <polygon points="100,10 190,175 10,175" fill="white" />
+        <!-- Inner cutout notch -->
+        <polygon points="100,55 155,155 45,155" fill="#0d1630" />
+        <!-- Swoosh line across middle -->
+        <polygon points="38,138 100,95 162,138 155,155 100,108 45,155" fill="white" />
+      </svg>
       <span style="font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:700;color:#ffffff;letter-spacing:0.14em;text-transform:uppercase;">Arcanum Capital Management</span>
     </div>
     <div style="display:flex;flex-direction:column;align-items:flex-end;gap:0.5rem">
